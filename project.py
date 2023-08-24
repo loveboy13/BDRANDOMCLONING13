@@ -1,6 +1,5 @@
 #WRITTEN BY AKASH
 #FOLLOW : https://github.com/loveboy13
-#------------- import -------------#
 import os
 from os import system as clr
 import random
@@ -11,7 +10,6 @@ import re
 import sys
 import uuid
 import json
-#-------------color----------------#
 bblack="\033[1;30m"         # Black
 M="\033[1;31m"            # Red
 H="\033[1;32m"         # Green
@@ -26,7 +24,6 @@ warna = random.choice(my_color)
 oks=[]
 cps=[]
 loop=0
-#-------------logo-----------------#
 logo=(f'''{B}
  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
 {warna}  | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
@@ -45,14 +42,11 @@ logo=(f'''{B}
  Facebook : AKASH
  Tools    :                  {warna}[{H}FREE{warna}]{warna}
 --------------------------------------------{B}''')
-#-------------linex def -------------#
 def linex():
     print(f'{warna}--------------------------------------------{B}')
-#-------------clear def -------------#
 def clear():
     clr('clear')
     print(logo)
-#-------------main def------------#
 def AKASH():
     clear()
     os.system('xdg-open https://github.com/loveboy13')
@@ -64,7 +58,6 @@ def AKASH():
         BD_CLONING()
     else:
         exit(' Thanks for using dear :)')
-#------------- bd clone def ----------#
 def BD_CLONING():
     user=[]
     clear()
@@ -97,7 +90,6 @@ def BD_CLONING():
     print(' TOTAL CP ID '+str(len(cps)))
     input(' PRESS ENTER TO BACK  : ')
     AKASH()
-#------------ method crack def ---------#
 def method_crack(ids,passlist):
     global oks
     global cps
@@ -136,5 +128,4 @@ def method_crack(ids,passlist):
         loop+=1
     except:
         pass
-#-------------end----------------#
 AKASH()
